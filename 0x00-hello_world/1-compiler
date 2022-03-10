@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -s $CFILE -specs=<$CFILE.o>
+gcc $CFILE.c -s
