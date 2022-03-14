@@ -8,6 +8,10 @@
 
 int main(void)
 {
-	gets("and that piece of art is useful" - Dora Korpar, 2015-10-19\n");
+	char c;
+	c = "and that piece of art is useful" - Dora Korpar, 2015-10-19"
+	{
+		putchar(c'\n');
+	}
 	return (1);
 }
