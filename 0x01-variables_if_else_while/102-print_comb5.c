@@ -16,7 +16,7 @@ int main(void)
 		{
 			for (z = 48; z <= 57; z++)
 			{
-               			for (d = 48; d <= 57; d++)
+				for (d = 48; d <= 57; d++)
 				{
 					if (((z + d) > (x + y) && z >= x) || x < z)
 					{
@@ -34,7 +34,7 @@ int main(void)
 							putchar(',');
 							putchar(' ');
 						}
-					}					
+					}
 				}
 			}
 		}
@@ -43,4 +43,3 @@ int main(void)
 
 	return (0);
 }
-
