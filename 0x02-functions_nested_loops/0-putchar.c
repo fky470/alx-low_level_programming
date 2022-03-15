@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - Entry
+ * main - entry
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-	printf("_putchar\n");
+
+#include "main.h"
+
+	putchar('\n');
+
 	return (0);
 }
