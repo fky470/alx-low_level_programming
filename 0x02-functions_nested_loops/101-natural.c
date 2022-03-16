@@ -4,7 +4,7 @@
  * @void : void
  * Return : 0 success
  */
-int main(void)
+int main()
 {
 	int n;
 	int sum = 0;
