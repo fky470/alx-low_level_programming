@@ -2,9 +2,10 @@
 
 /**
  * _abs - print absolute value of an integer
- * @n: takes an integer 
+ * @n: takes in an integer 
  * Return: return - if n > 0, return 0 if n = 0, return + if n < 0
  */
+
 int _abs(int n)
 {
 	if (n < 0)
