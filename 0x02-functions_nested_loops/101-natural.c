@@ -14,10 +14,11 @@ int main(void)
 
 	for (n = 0; n < 1024; n++)
 	{
-		if (n * 3 && n * 5)
+		if (n % 3 || n % 5)
 		{
 			sum = sum + n;
 		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
