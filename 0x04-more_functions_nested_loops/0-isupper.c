@@ -9,15 +9,12 @@
 
 int _isupper(int c)
 {
-	for (c = 48; c <= 57; c++)
+	if (c >= 65 && c <= 90)
 	{
-		if (c != 50 && c != 52)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
