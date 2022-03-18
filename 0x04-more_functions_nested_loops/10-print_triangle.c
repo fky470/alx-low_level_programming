@@ -3,11 +3,14 @@
 /**
  * print_triangle - prints a triangle
  * @n: takes in an integer
+ * @i: takes in an integer
+ * @j: takes in an integer
  */
 
 void print_triangle(int size)
 {
-	int i, j;
+	int i;
+	int j;
 
 	for (i = 0; i < size; i++)
 	{
