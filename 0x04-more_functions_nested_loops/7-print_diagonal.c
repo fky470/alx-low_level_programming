@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_diagonal - prints diagonal line on the terminal
+ * @n: takes in an integer
+ *
+ */
+
 void print_diagonal(int n)
 {
 	int i, j;
