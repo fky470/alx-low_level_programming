@@ -3,6 +3,7 @@
 /**
  * print_line - prints a straight line in the terminal
  *
+ * @n : takes in an integer
  */
 
 void print_line(int n)
@@ -15,10 +16,7 @@ void print_line(int n)
 		{
 			_putchar('-');
 		}
-		else
-		{
-			_putchar('\n');
-		}
+
 	}
 	_putchar('\n');
 }
