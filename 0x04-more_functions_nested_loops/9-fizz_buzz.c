@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - entry
- * @i: takes in an integer
- * return - 0 success
+ * 
+ * 
+ * return - return a number
  */
 
 int main(void)
@@ -31,6 +31,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-
 	return (0);
 }
