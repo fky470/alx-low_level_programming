@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - entry
+ * main - main function
  * 
  * 
- * return - return a number
+ * return - a number
  */
 
 int main(void)
@@ -23,8 +23,7 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-		}
-		else
+		} else
 		{
 			printf("%d", i);
 		}
@@ -34,3 +33,4 @@ int main(void)
 	printf("\n");
 	return (0);
 }
+
