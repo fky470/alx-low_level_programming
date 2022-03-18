@@ -1,12 +1,13 @@
-#include "main.h"
 #include <stdio.h>
+
 /**
- * main - entry point
- * 
- * Descripition: prints FizzBuzz
- *
- * Return: void
- */
+* main - prints the numbers from 1 to 100 followed by a new line
+* for multiples of 3 print Fizz
+* for multiples of 5 print Buzz
+* for multipes of 3 and 5 print FizzBuzz
+*
+* Return: returns 0
+*/
 int main(void)
 {
 	int i;
