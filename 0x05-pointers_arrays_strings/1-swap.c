@@ -5,7 +5,7 @@
  * swap_int - swaps the value of two integers
  * @a: parameter to take value
  * @b: parameter to take value
- * @x: parameter to take value
+ *
  */
 
 void swap_int(int *a, int *b)
