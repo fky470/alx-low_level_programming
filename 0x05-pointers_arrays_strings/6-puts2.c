@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * puts2 - prints every other character of a string, starting with the first character
- * @str: an integer
+ * puts2 - prints every other character of a string, 
+ * starting with the first character
+ * @str: the string
  */
 
 void puts2(char *str)
@@ -12,7 +13,7 @@ void puts2(char *str)
 
 	for (i = 0; str[i] != 0; i++)
 	{
-		if (str[i] % 2 == 0)
+		if (i % 2 == 0)
 		{
 			_putchar(str[i]);
 		}
