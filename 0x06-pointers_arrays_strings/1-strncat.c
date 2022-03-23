@@ -5,7 +5,7 @@
  * @dest: the string
  * @src: the string
  * @n: takes in an integer
- * Return: return dest to the resulting string
+ * Return: return *dest
  */
 
 char *_strncat(char *dest, char *src, int n)
