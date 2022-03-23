@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * _strcat -  function that concatenates two strings
+ * _strncat - function that concatenates two strings
  * @dest: the string
  * @src: the string
+ * @n: an integer
  * Return: return dest to the resulting string
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i;
 	int j;
@@ -19,11 +20,10 @@ char *_strcat(char *dest, char *src)
 	{
 		i++;
 	}
-	for (j = 0; src[j] != '\0'; j++, i++)
+	for (j = 0; src[j] < n; j++, i++)
 	{
 		dest[i] = src[j];
 	}
-
 	dest[i] = '\0';
 
 	return (dest);
