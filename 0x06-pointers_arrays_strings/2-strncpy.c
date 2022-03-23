@@ -3,9 +3,9 @@
 
 /**
  * _strncpy - function that copies a string
- * @dest: the string
- * @src: the string
- * @n: number of bytes in character
+ * @dest: buffer storing the string copy
+ * @src: the source string
+ * @n: maximum umber of bytes
  * Return: return dest
  */
 
@@ -17,7 +17,7 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	if (src[i] < n)
+	for ( ; i < n; i++)
 	{
 		dest[i] = '\0';
 	}
