@@ -20,6 +20,7 @@ char *cap_string(char *str)
 				continue;
 			}
 		}
+
 		else if (str[i] == ' ')
 		{
 			if (str[i] >= 97 && str[i] <= 122)
@@ -28,6 +29,7 @@ char *cap_string(char *str)
 				continue;
 			}
 		}
+		
 		else
 		{
 			if (str[i] >= 65 && str[i] <= 90)
