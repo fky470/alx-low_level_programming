@@ -2,9 +2,8 @@
 
 /**
  * *cap_string - capitalizes all words of a string
- *
- * @str: holds character
- * Return: string
+ * @str: a string
+ * Return: return value of str
  */
 
 char *cap_string(char *str)
@@ -23,7 +22,6 @@ char *cap_string(char *str)
 		}
 		else if (str[i] == ' ')
 		{
-			++i;
 			if (str[i] >= 97 && str[i] <= 122)
 			{
 				str[i] = str[i] - 32;
