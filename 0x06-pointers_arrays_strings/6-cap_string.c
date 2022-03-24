@@ -1,40 +1,40 @@
 #include "main.h"
-
 /**
- * cap_string - capitalizes all words of a string
- * @s: hold character
- * Return: return s
+ * *cap_string - function that capitalizes all words of a string
+ *
+ * @s: a string
+ * Return: return string
  */
 
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; s[i] != '0'; i++)
+	for (i = 0; str[i] != '0'; i++)
 	{
 		if (i == 0)
 		{
-			if (s[i] >= 97 && s[i] <= 122)
+			if (str[i] >= 97 && str[i] <= 122)
 			{
-				s[i] = s[i] - 32;
+				str[i] = str[i] - 32;
 				continue;
 			}
 		}
-		else if (s[i] == ' ')
+		else if (str[i] == ' ')
 		{
-			if (s[i] >= 97 && s[i] <= 122)
+			if (str[i] >= 97 && str[i] <= 122)
 			{
-				s[i] = s[i] - 32;
+				str[i] = str[i] - 32;
 				continue;
 			}
 		}
 		else
 		{
-			if (s[i] >= 65 && s[i] <= 90)
+			if (str[i] >= 65 && str[i] <= 90)
 			{
-				s[i] = s[i] + 32;
+				str[i] = str[i] + 32;
 			}
 		}
 	}
-	return (s);
+	return (str);
 }
