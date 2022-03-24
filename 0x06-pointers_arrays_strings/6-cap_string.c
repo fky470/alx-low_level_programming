@@ -2,15 +2,16 @@
 
 /**
  * *cap_string - capitalizes all words of a string
- * @str: a string
- * Return: return value of str
+ *
+ * @str: holds character
+ * Return: string
  */
 
 char *cap_string(char *str)
 {
 	int i;
 
-	for (i = 0; str[i] != '0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		if (i == 0)
 		{
@@ -20,7 +21,6 @@ char *cap_string(char *str)
 				continue;
 			}
 		}
-
 		else if (str[i] == ' ')
 		{
 			if (str[i] >= 97 && str[i] <= 122)
@@ -29,7 +29,6 @@ char *cap_string(char *str)
 				continue;
 			}
 		}
-		
 		else
 		{
 			if (str[i] >= 65 && str[i] <= 90)
