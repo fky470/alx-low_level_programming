@@ -16,7 +16,7 @@ char *leet(char *s)
 		{
 			if (s[i] == x[j])
 			{
-				s[i] = x[j] + 1;
+				s[i] = x[j + 1];
 				break;
 			}
 		}
