@@ -8,7 +8,8 @@
 char *rot13(char *s)
 {
 	int i, j;
-	char x[] = "NANOBOPCPQDQRERSFSTGTUHUVIVWJWXKXYLYZMZnanobopcpqdqrersfstgtuhuvivwjwxkxylyzmz";
+	char x[] = "aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+	char y[] = "nNoOpPqQrRsStTuUvVwWxXyYzZaAbBcCdDeEfFgGhHiIjJkKlLmM";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
@@ -16,7 +17,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == x[j])
 			{
-				s[i] = x[j + 1];
+				s[i] = y[j];
 				break;
 			}
 		}
