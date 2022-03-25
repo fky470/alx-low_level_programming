@@ -7,8 +7,8 @@
 
 char *rot13(char *s)
 {
-	char x[] = "NANOBOPCPQDQRERSFSTGTUHUVIVWJWXKXYLYZMZnanobopcpqdqrersfstgtuhuvivwjwxkxylyzmz";
 	int i, j;
+	char x[] = "NANOBOPCPQDQRERSFSTGTUHUVIVWJWXKXYLYZMZnanobopcpqdqrersfstgtuhuvivwjwxkxylyzmz";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
