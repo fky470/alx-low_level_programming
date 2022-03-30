@@ -7,7 +7,7 @@
 
 void _puts_recursion(char *s)
 {
-	int i;
+	char i;
 
 	if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z'))
 	{
