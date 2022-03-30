@@ -9,7 +9,7 @@ void _puts_recursion(char *s)
 {
 	int i;
 
-	if (i >= 'a' && i <= 'z')
+	if ((i >= 'a' && i <= 'z') || (i >= 'A' && i <= 'Z'))
 	{
 		*s = i;
 	}
