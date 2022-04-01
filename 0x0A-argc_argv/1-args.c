@@ -6,7 +6,7 @@
  * *argv: size of argc
  */
 
-int main(int argc, char *argv[]__attribute__((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	if (argc > 0)
 	{
