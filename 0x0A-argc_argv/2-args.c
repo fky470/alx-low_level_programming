@@ -2,18 +2,19 @@
 
 /**
  * main - prints all arguments it receives
- * @argc: n args
- * @argv: arr args
- * Return: 0
+ * @argc: The number of arguments supplied to the program
+ * @argv: An array of pointersto the arguments
+ *
+ * Return: Always 0
  */
 
 int main(int argc, char* argv[])
 {
-	int i;
+	int arg;
 
-	for (i = 0; i < argc; i++)
+	for (arg = 0; arg < argc; arg++)
 	{
-		printf("%s\n", argv[i]);
+		printf("%s\n", argv[arg]);
 	}
 	return (0);
 }
