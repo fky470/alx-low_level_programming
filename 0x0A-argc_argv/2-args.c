@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - main function
+ * @argc: number of arguments
+ * @argv: size of argc
+ * Return: return 0
+ */
+
 int main(int argc, char* argv[])
 {
 	int i;
