@@ -4,6 +4,7 @@
  * main - prints its name, followed by a new line
  * argc: count number of arguments
  * *argv: size of argc
+ * Return: return 0
  */
 
 int main(int argc, char *argv[] __attribute__((unused)))
