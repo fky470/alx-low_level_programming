@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - prints its name, followed by a new line
  * argc: count number of arguments
  * *argv: size of argc
  */
