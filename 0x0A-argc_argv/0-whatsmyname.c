@@ -3,8 +3,8 @@
 
 /**
  * main - main function
- * argc: count argument
- * *argv: size of argc
+ * @argc: count argument
+ * @argv: size of argc
  * Return: success(0)
  */
 
