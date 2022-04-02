@@ -4,8 +4,8 @@
 
 /**
  * main - prints its name, followed by a new line
- * argc: count number of arguments
- * *argv: size of argc
+ * @argc: count number of arguments
+ * @argv: size of argc
  * Return: return 0
  */
 
