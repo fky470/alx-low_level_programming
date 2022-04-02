@@ -3,8 +3,8 @@
 
 /**
  * main - print the result of the multiplication
- * argc: number of arguments
- * argv: an array of pointers to the arguments
+ * @argc: number of arguments
+ * @argv: an array of pointers to the arguments
  * Return: return 1 if the program does not
  * receive two arguments otherwise return 0
  */
