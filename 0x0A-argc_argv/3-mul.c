@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
- * main - main function
+ * main - print the result of the multiplication
  * argc: number of arguments
- * argv: stores int value arguments in command line
- * Return: return 1 if the program does not receive two arguments
- * otherwise return 0
+ * argv: an array of pointers to the arguments
+ * Return: return 1 if the program does not
+ * receive two arguments otherwise return 0
  */
 
 int main(int argc, char *argv[])
