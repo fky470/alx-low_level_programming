@@ -1,6 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - prints the addition of positive numbers
+ * @argc: number of arguments
+ * @argv: pointers to an array of arguments
+ * Return: return 1 if one of the number contains
+ * symbols that are not digits otherwise return 0
+ */
+
 int main(int argc, char *argv[])
 {
 	int i, d;
@@ -28,5 +36,7 @@ int main(int argc, char *argv[])
 		}
 
 		printf("%d\n", sum);
+
+		return (0);
 	}
 }
