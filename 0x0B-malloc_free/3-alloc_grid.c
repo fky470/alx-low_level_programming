@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 	{
 		return ('\0');
 	}
-	if (!p)
+	if (!**p)
 	{
 		return ('\0');
 	}
