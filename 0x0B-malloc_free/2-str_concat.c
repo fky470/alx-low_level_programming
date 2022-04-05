@@ -46,4 +46,5 @@ char *str_concat(char *s1, char *s2)
 		p[i] = *(s2 + j);
 	}
 	return (p);
+	free(p);
 }
