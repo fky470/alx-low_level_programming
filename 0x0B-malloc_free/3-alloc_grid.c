@@ -19,11 +19,11 @@ int **alloc_grid(int width, int height)
 	{
 		return ('\0');
 	}
+	grid = malloc(sizeof(int) * height);
 	if (grid == NULL)
 	{
 		return ('\0');
 	}
-	grid = malloc(sizeof(int) * height);
 	{
 		for (i = 0; i < height; i++)
 		{
