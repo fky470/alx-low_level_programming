@@ -1,13 +1,6 @@
-#ifndef SIZE
+#ifndef FILE_MACRO
+#define FILE_MACRO
+
 #define SIZE (1024)
 
-#include <stdio.h>
-
-int main(void)
-{
-	int i;
-	i = SIZE;
-
-	printf("%d", i);
-	return 0;
-}
+#endif
