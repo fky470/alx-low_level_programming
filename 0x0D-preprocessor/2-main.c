@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * main - prints the name of the file it was compiled from
  *
- * Return: Always 0.
+ * Return: return always(0)
  */
 
 int main (void)
