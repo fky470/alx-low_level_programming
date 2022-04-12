@@ -2,6 +2,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * new_dog - function that creates a new dog
+ * @name: name's dog
+ * @age: age's dog
+ * @owner: owner's dog
+ * Return: return new dog
+ */
+
 dog_t *new_dog(char *name, float age, char *owner)
 {
 	int i, j, k;
