@@ -5,14 +5,12 @@
 /**
  * sum_them_all - returns the sum of all its parameters
  * @n: constant unsigned integer
- * @...: undefined n parameters
- * Return: return sum
+ * Return: return sum or 0 if n is 0
  */
 
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list args;
-
 	unsigned int i, sum;
 
 	va_start (args, n);
