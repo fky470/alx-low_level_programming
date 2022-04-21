@@ -21,8 +21,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[0] (nill)\n");
 		}
-		count += 1;
-
+		count = count + 1;
 		c = c->next;
 	}
 	return (count);
